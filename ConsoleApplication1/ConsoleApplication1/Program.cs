@@ -19,6 +19,9 @@ namespace ConsoleApplication1
             {
                 Console.WriteLine(エラーメッセージ);
             }
+
+
+            Console.Write("Exit");
         }
     }
 }
