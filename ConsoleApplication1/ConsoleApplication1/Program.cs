@@ -8,7 +8,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.Write("Exit");
+            Console.Write("Exi2t");
         }
     }
 }
