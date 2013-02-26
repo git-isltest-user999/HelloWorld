@@ -8,9 +8,16 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < 10; i++)
+            Int32 あ;
+            String エラーメッセージ = "エラーです";
+
+            if (Int32.TryParse("10", out あ))
             {
-                Console.WriteLine("Hello, World!");
+                Console.WriteLine(あ);
+            }
+            else
+            {
+                Console.WriteLine(エラーメッセージ);
             }
         }
     }
