@@ -8,7 +8,10 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.Write("Exi2t");
+            for (Int32 i = 0; i < 10; i++)
+            {
+                Console.Write("Exi2t");
+            }
         }
     }
 }
