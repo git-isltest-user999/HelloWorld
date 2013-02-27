@@ -8,11 +8,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            for (Int32 i = 0; i < 10; i++)
-            {
-                Console.Write("22222222222222222");
-
-            }
+            Console.WriteLine("Hello, World!");
         }
     }
 }
