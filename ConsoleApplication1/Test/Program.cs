@@ -19,5 +19,17 @@ namespace Test
             //Verify
             Assert.AreEqual(Greeting, message.GetMessage());
         }
+
+
+        [Test]
+        public void GetMessageTest2()
+        {
+            const String Greeting = "Hello, C# !";
+            Message message = new Message();
+            message.SetMessage(Greeting);
+
+            //Verify
+            Assert.AreEqual(Greeting, message.GetMessage());
+        }
     }
 }
